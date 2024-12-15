@@ -1,4 +1,71 @@
 body {
-    background: aquamarine;
+    background-color: aquamarine;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: darkcyan;
+
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.5;
+    color: darkcyan;
+}
+
+form {
+    padding: 30px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 20px 60px rgba(red, green, blue, alpha);
+    display: flex;
+    margin-bottom: 30px;
+}
+
+footer {
+    font-size:14px;
+    margin-top:30px;
+
+}
+
+.instructions {
+    padding: 10px;
+    border: 1px solid grey;
+    width: 90%;
+    font-size: large;
+    border-radius: 50px;
+    line-height: 20px;
+    color:aliceblue;
+}
+
+.jokes {
+    font-size: large;
+    background-color:aliceblue;
+    padding: 20px;
+    line-height: 24px;
+    border-left: 3px solid darkcyan;
+    box-shadow: 0px 20px 60px rgba(red, green, blue, alpha);
+}
+
+.submit-button {
+    margin-left: 10px;
+    background: darkcyan;
+    color: whitesmoke;
+    border: none;
+    width: 150px;
+    border-radius: 50px;
+    font-size: large;
+    padding: 14px 24px;
 }
