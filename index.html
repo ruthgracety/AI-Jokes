@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>API Funniest Jokes</title>
 </head>
 <body>
@@ -12,13 +13,12 @@
     </header>
 
     <main>
-        <form>
+        <form id="jokes-generate-form">
             <input type="text" placeholder="tell me your jokes" autofocus required autocomplete="off" class="instructions"/>
             <input type="submit" class="submit-button"/>
 
         </form>
-        <div class="jokes">
-            List of jokes
+        <div class="jokes" id="jokes">
         </div>
     </main>
 
